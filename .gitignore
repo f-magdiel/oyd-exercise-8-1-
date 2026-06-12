@@ -1,0 +1,48 @@
+# =============================================================================
+# Terraform — generated and sensitive files
+# =============================================================================
+
+# Local .terraform directory (provider plugins & module cache)
+.terraform/
+.terraform.lock.hcl
+
+# Terraform state files (never commit state to source control)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Plan output files (binary, not human-readable)
+*.tfplan
+*.plan
+
+# Override files (local developer overrides — not for shared use)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Variable files that may contain secrets
+*.auto.tfvars
+secrets.tfvars
+sensitive.tfvars
+
+# Crash log from Terraform
+crash.log
+crash.*.log
+
+# =============================================================================
+# macOS
+# =============================================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# =============================================================================
+# IDE / Editor
+# =============================================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
